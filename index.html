@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>balance</title>
+</head>
+<body>
+    <div class="container">
+        <div class="circle">
+            <img src="img/ava.png" alt="">
+        </div>
+        <center>
+            <h4>your balance is:</h4>
+            <h1 id="balance"></h1>
+        </center>
+        <div class="money">
+            <div class="send">
+                <label for="">how much do you want to send</label>
+                <input type="number" id="amount">
+                <button onclick="send()">send money</button>
+            </div>
+            
+            <div class="pay">
+                <label for="">what do you want to buy:</label>
+                <select id="what">
+                    <option value="7">cola-7$-</option>
+                    <option value="100">nokia-100$-</option>
+                    <option value="1200">iphone 14 pro max-1200$-</option>
+                    <option value="5000">house-5000$-</option>
+                    <option value="10000">nothing-10000$-</option>
+                </select>
+                <button onclick="pay()">buy</button>
+            </div>
+        </div>
+        <center><label for="">by : cofido</label></center>
+        
+        
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
